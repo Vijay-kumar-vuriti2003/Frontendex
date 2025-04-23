@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body background="image.png">
+
+    <h1><center>Job Application</center></h1>
+    <hr>
+    <h2>Personal Information</h2>
+    <hr>
+    <form action="">
+        <label for="name">Full Name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" id="name" name="name" placeholder="First-Name">
+        <input type="text" id="name" name="name" placeholder="Last-Name"><br><br>
+
+        <label for="date-of-birth">Date of Birth</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="date" id="date-of-birth" name="date-of-birth"><br><br>
+
+        <label>Gender</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <label for="edu">Education</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <select name="edu" id="edu">
+            <option value="MCA" name="MCA">MCA</option>
+            <option value="B.Tech" name="B.Tech"selected>B.Tech</option>
+            <option value="BSC" name="BSC" >BSC</option>
+            <option value="BCA" name="mysql">BCA</option>
+        </select><br><br>
+
+        <label for="file">Resume</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="file" id="file"><br><br>
+
+        <label for="address">Address</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" id="address" name="address"><br>
+        <label for="Pincode">Pincode</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="pin" name="pincode" placeholder="000-000" pattern="[0-9]{6}" required><br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" id="address" name="address">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Country
+        <select name="address" id="address">
+            <option value="India" name="India">India</option>
+            <option value="USA" name="USA">USA</option>
+            <option value="UK" name="UK" selected>UK</option>
+        </select><br><br>
+        <label for="email">Email</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="email" id="email"><br><br>
+
+        <label for="contact">Contact</label>
+        <input type="tel" name="contact" placeholder="e.g. 0123456789" pattern="[0-9]{10}" required><br><br>
+
+
+        <label for="Skills">Skills</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <select name="Skills" id="Skills">
+            <option value="Python" name="Python">Python</option>
+            <option value="SQL" name="SQL"selected>SQL</option>
+            <option value="Frontend" name="Frontend" >Frontend</option>
+            <option value="UI/UX" name="UI/UX">UI/UX</option>
+        </select><br><br>
+
+        <input type="number" id="Expected salary" name="Expected salary" placeholder="Expected salary">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Expected salary
+        <select name="Expected salary" id="Expected salary">
+            <option value="2-3lpa" name="2-3lpa">2-3lpa</option>
+            <option value="4-5lpa" name="4-5lpa">4-5lpa</option>
+            <option value="6-8lpa" name="6-8lpa" selected>6-8lpa</option>
+        </select><br><br>
+
+        <label for="textarea">Cover messege</label><br>
+        <textarea id="textarea" rows="10" cols="100"></textarea><br><br>
+
+        <h2>Work Experience</h2>
+        <hr>
+
+        <label for="company">Company Name</label>
+        <input type="text" id="company" name="company"><br><br>
+
+        <label for="date-of-joining">Date of Joining</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="date" id="date-of-joining" name="date-of-joining"><br><br>
+
+        <label for="date-of-leaving">Date of Leaving</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="date" id="date-of-leaving" name="date-of-leaving"><br><br>
+
+        <label for="designation">Designation</label>
+        <input type="text" id="designation" name="designation"><br><br>
+
+        <h3>Reference#1</h3>
+        <hr>
+
+        <label for="name">Full Name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" id="name" name="name" placeholder="First-Name">
+        <input type="text" id="name" name="name" placeholder="Last-Name"><br><br>
+
+        <label for="email">Email</label>
+        <input type="email" id="email"><br><br>
+
+        <label for="contact">Contact</label>
+        <input type="tel" name="contact" placeholder="e.g. 9876543210" pattern="[0-9]{10}" required><br><br>
+
+        <input type="submit" value="Apply">
+    </form>
+</body>
+</html>
